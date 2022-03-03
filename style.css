@@ -49,7 +49,65 @@ h1 {
     margin: 1rem;
 }
 
+.animation{
+    animation: fade-in 1s ease;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
+.animation1{
+    animation: fade-in1 1s ease;
+}
+@keyframes fade-in1 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animation2{
+    animation: fade-in2 1s ease;
+}
+@keyframes fade-in2 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.animation3{
+    animation: fade-in3 1s ease;
+}
+@keyframes fade-in3 {
+    0% {
+        opacity: 0.;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 img {
     width: 50rem;
