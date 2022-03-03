@@ -19,8 +19,8 @@ h1 {
     flex-direction: column;
     /* animation */
     background: linear-gradient(45deg ,rgb(242,186,33), rgb(233,64,87), rgb(159,41,180), rgb(20,228,255))no-repeat;
-    animation: wave-background 10s ease infinite;
-    background-size: 400%, 400%;
+    animation: wave-background 5s ease infinite;
+    background-size: 200%, 200%;
 }
 /* animation*/
 @keyframes wave-background {
