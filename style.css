@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    background: linear-gradient(45deg ,rgb(242,186,33), rgb(233,64,87), rgb(159,41,180), rgb(20,228,255))no-repeat;
+    animation: wave-background 5s ease infinite;
+    background-size: 200%, 200%;
 }
 
 h1 {
@@ -18,9 +21,7 @@ h1 {
     justify-content: center;
     flex-direction: column;
     /* animation */
-    background: linear-gradient(45deg ,rgb(242,186,33), rgb(233,64,87), rgb(159,41,180), rgb(20,228,255))no-repeat;
-    animation: wave-background 5s ease infinite;
-    background-size: 200%, 200%;
+
 }
 /* animation*/
 @keyframes wave-background {
