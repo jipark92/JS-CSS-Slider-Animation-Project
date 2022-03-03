@@ -26,13 +26,16 @@ function nextBtn () {
     nextBtns.addEventListener('click',()=>{
         slideNum++;
         console.log(slideNum);
-        if (slideNum >= 4) {
+        if (slideNum > 3) {
             slideNum = 0;
         }
         showCase(slideNum);
     })
 }
 nextBtn();
+
+// WORK ON THIS LATER. FINISH "NEXT-BTN" FIRST THEN USE IT AS REFERENCE TO WORK ON PREV BUTTON EASIER.
+
 
 // function prevBtn (){
 //     prevBtns.addEventListener('click',()=>{
@@ -48,12 +51,4 @@ function showCase(slideNum) {
     console.log(imageSource);
     images.src = imageSource.src;
 }
-
-
-// window.addEventListener('DOMContentLoaded',()=>{
-//     images.src = imageSource.src[0];
-// });
-
-
-
 
