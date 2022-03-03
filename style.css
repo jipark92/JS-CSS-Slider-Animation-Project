@@ -5,12 +5,24 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(45deg ,rgb(242,186,33), rgb(233,64,87), rgb(159,41,180), rgb(20,228,255));
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* animation */
+    background: linear-gradient(45deg ,rgb(242,186,33), rgb(233,64,87), rgb(159,41,180), rgb(20,228,255))no-repeat;
     animation: wave-background 10s ease infinite;
     background-size: 400%, 400%;
 }
-
-
+/* animation*/
 @keyframes wave-background {
     0% {
         background-position: 0% 50%;
@@ -23,17 +35,21 @@
     }
 }
 
-h1 {
-    text-align: center;
+.container > .title-container {
+    margin: 3rem;
 }
-.image-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+.container > .button-container {
+    margin: 3rem;
 }
+
+.container button {
+    font-size: 1.5rem;
+    width: 5rem;
+    margin: 1rem;
+}
+
+
 
 img {
     width: 50rem;
@@ -41,3 +57,4 @@ img {
     border: 0.5rem solid #1E40AF;
     border-radius: 3rem;
 }
+
